@@ -37,55 +37,55 @@ if (mysqli_num_rows($result)>0){
     <div class="dropdown">
         <button class="dropbtn">Puskesmas</button>
         <div class="dropdown-content">
-      <a href="http://119.2.50.170:6517/kagok/">SIMPUS</a>
-      <a href="https://sisdmk.kemkes.go.id/">SISDMK</a>
-      <a href="https://simpatik.semarangkota.go.id/login">SIMPATIK</a>
-      <a href="http://119.2.50.170:9095/sip/">SIP</a>
-      <a href="http://dinkes.semarangkota.go.id/dashboard">DASHBOARD DINAS</a>
-      <a href="https://sinona.semarangkota.go.id/">SINONA</a>
-      <a href="https://aspak.kemkes.go.id/aplikasi/">MY ASPAK</a>
-      <a href="https://absen.semarangkota.go.id/login">ABSEN</a>
-      <a href="https://bit.ly/FORMATSIK">PEMETAAN</a>
-      <a href="https://smg.city/formresponsesikmgematipuskesmas7g">GEMATI</a>
-      <a href="http://119.2.50.170:9094/pakedi/  ">PAK EDI</a>
-      <a href="https://sirs.kemkes.go.id/fo/sisrute/">SISRUTE</a>
-      <a href="https://dinkes.semarangkota.go.id/gasurkeskia/">SISGASPOL</a>
-      <a href="http://uhc.semarangkota.go.id/  ">UHC</a>
+      <a href="#">SIMPUS</a>
+      <a href="#">SISDMK</a>
+      <a href="#">SIMPATIK</a>
+      <a href="#">SIP</a>
+      <a href="#">DASHBOARD DINAS</a>
+      <a href="#">SINONA</a>
+      <a href="#">MY ASPAK</a>
+      <a href="#">ABSEN</a>
+      <a href="#">PEMETAAN</a>
+      <a href="#">GEMATI</a>
+      <a href="#">PAK EDI</a>
+      <a href="#">SISRUTE</a>
+      <a href="#">SISGASPOL</a>
+      <a href="#">UHC</a>
       <a href="#">PKP 2023</a>
-      <a href="https://bit.ly/PKPUKMESENSIAL2023">PKP UKM ESENSIAL 2023</a>
-      <a href="https://docs.google.com/spreadsheets/d/1K-bu_MKmzurRfGkLuU9RofsbwMyrNq4Wr6vpdVvYV9M/edit?usp=sharing">PKP UKM PENGEMBANGAN 2023</a>
-      <a href="https://bit.ly/RUKRPK2022RUK2023">RUK RPK 2023</a>
+      <a href="#">PKP UKM ESENSIAL 2023</a>
+      <a href="#">PKP UKM PENGEMBANGAN 2023</a>
+      <a href="#">RUK RPK 2023</a>
       </div>
       </div>
 
       <div class="dropdown">
       <button class="dropbtn">Akreditasi</button>
       <div class="dropdown-content">
-    <a href="http://smg.city/akredkagok">DOKUMEN AKREDITASI</a>
-    <a href="mutufasyankes.kemkes.go.id">NM indikator Mutu Nasional</a>
-    <a href="https://bit.ly/IMUKMPKMKAGOK2023">Indikator Mutu UKM Puskesmas Kagok 2023</a>
-    <a href="https://accounts.google.com/InteractiveLogin/identifier?elo=1&ifkv=Af_xneFPib73w-4IclWIbLLmMBfLYBgKcP8FLpef_LCqJ-KP-0Gg1tLynGc1LaXgrWJv1qray4hTDQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin ">SIPADUKA</a>
+    <a href="#">DOKUMEN AKREDITASI</a>
+    <a href="#">NM indikator Mutu Nasional</a>
+    <a href="#">Indikator Mutu UKM Puskesmas Kagok 2023</a>
+    <a href="#">SIPADUKA</a>
     </div>
     </div>
 
     <div class="dropdown">
     <button class="dropbtn">Lokmin</button>
     <div class="dropdown-content">
-  <a href="https://bit.ly/CAPAIANPKP23">Capaian PKP 2023</a>
-  <a href="https://bit.ly/PUSKESMAS7G">Puskesmas 7G</a>
-  <a href="https://bit.ly/SPMKAGOK23">SPM 2023</a>
-  <a href="https://bit.ly/PERHITUNGANKBK">PERHITUNGAN KBK</a>
-  <a href="monevpembangunan.semarangkota.go.id">MONEV</a>
-  <a href="https://tinyurl.com/MONEV-PERCEPATAN-TH-2023">MONEV PERCEPATAN 2023</a>
-  <a href="https://bit.ly/RAPATBULANANKAGOK">Rapat Bulanan</a>
-  <a href="https://smg.city/deskpkpsik">Pelaporan</a>
+  <a href="#">Capaian PKP 2023</a>
+  <a href="#">Puskesmas 7G</a>
+  <a href="#">SPM 2023</a>
+  <a href="#">PERHITUNGAN KBK</a>
+  <a href="#">MONEV</a>
+  <a href="#">MONEV PERCEPATAN 2023</a>
+  <a href="#">Rapat Bulanan</a>
+  <a href="#">Pelaporan</a>
 </div>
 </div>
 
 <div class="dropdown">
   <button class="dropbtn">Program</button>
   <div class="dropdown-content">
-<a href="https://linktr.ee/goakreodkksemarang">Goa Kreo</a>
+<a href="#">Goa Kreo</a>
   </div>
 </div>
 
@@ -100,7 +100,7 @@ if (mysqli_num_rows($result)>0){
     <a href="#">TELUSUR BAB 4 & RUK RPK AKRED</a>
     <a href="#">BAB 1 DAN BAB 3</a>
     <a href="#">BAB 2 DAN BAB 5</a>
-    <a href="https://drive.google.com/drive/folders/19wEAlRPK7SmNZJsVT2MZOGqFl4ezCUTc">UANG LOKMIN</a>
+    <a href="#">UANG LOKMIN</a>
     <a href="#">Rapat Eksternal</a>
     <a href="#">Hasil SIPGAR</a>
   </div>
@@ -109,15 +109,15 @@ if (mysqli_num_rows($result)>0){
 <div class="dropdown">
   <button class="dropbtn">Dokumentasi ADMEN</button>
   <div class="dropdown-content">
-<a href="https://drive.google.com/drive/folders/1JNoDQBfEvxvfP0iNfo7-87O5OJBs7tXo">BARANG 2023</a>
-<a href="https://drive.google.com/drive/folders/1ysvV3sxZ0V85xqu8nTrz6Hkv4J5Z_H0R">KEUANGAN 2023</a>
-<a href="https://drive.google.com/drive/folders/1JDJeTZvT6CoQE0ENzWqBqCsqQZodYH4Q">LOKMIN LINSEK 2023</a>
-<a href="https://drive.google.com/drive/folders/1EO02T4Itzx6FNXupLLwnZgLG9uCcEfEF">LOKMIN 2023</a>
-<a href="https://drive.google.com/drive/folders/15PDB9tRUswXi7BFbbJus-Za6TW6_xffU">OPERASIONAL 2023</a>
+<a href="#">BARANG 2023</a>
+<a href="#">KEUANGAN 2023</a>
+<a href="#">LOKMIN LINSEK 2023</a>
+<a href="#">LOKMIN 2023</a>
+<a href="#">OPERASIONAL 2023</a>
 </div>
 </div>
  
-    <a href="landingpage.html">Logout</a>
+    <a href="landingpage.php">Logout</a>
 
 </div>
 
