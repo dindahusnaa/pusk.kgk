@@ -88,31 +88,31 @@ if (mysqli_num_rows($result)>0){
       <div class="dropdown">
       <button class="dropbtn">Akreditasi</button>
       <div class="dropdown-content">
-    <a href="http://smg.city/akredkagok">DOKUMEN AKREDITASI</a>
-    <a href="mutufasyankes.kemkes.go.id">NM indikator Mutu Nasional</a>
-    <a href="https://bit.ly/IMUKMPKMKAGOK2023">Indikator Mutu UKM Puskesmas Kagok 2023</a>
-    <a href="https://accounts.google.com/InteractiveLogin/identifier?elo=1&ifkv=Af_xneFPib73w-4IclWIbLLmMBfLYBgKcP8FLpef_LCqJ-KP-0Gg1tLynGc1LaXgrWJv1qray4hTDQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin ">SIPADUKA</a>
+    <a href="#">DOKUMEN AKREDITASI</a>
+    <a href="#">NM indikator Mutu Nasional</a>
+    <a href="#">Indikator Mutu UKM Puskesmas Kagok 2023</a>
+    <a href="#">SIPADUKA</a>
     </div>
     </div>
 
     <div class="dropdown">
     <button class="dropbtn">Lokmin</button>
     <div class="dropdown-content">
-  <a href="https://bit.ly/CAPAIANPKP23">Capaian PKP 2023</a>
-  <a href="https://bit.ly/PUSKESMAS7G">Puskesmas 7G</a>
-  <a href="https://bit.ly/SPMKAGOK23">SPM 2023</a>
-  <a href="https://bit.ly/PERHITUNGANKBK">PERHITUNGAN KBK</a>
-  <a href="monevpembangunan.semarangkota.go.id">MONEV</a>
-  <a href="https://tinyurl.com/MONEV-PERCEPATAN-TH-2023">MONEV PERCEPATAN 2023</a>
-  <a href="https://bit.ly/RAPATBULANANKAGOK">Rapat Bulanan</a>
-  <a href="https://smg.city/deskpkpsik">Pelaporan</a>
+  <a href="#">Capaian PKP 2023</a>
+  <a href="#">Puskesmas 7G</a>
+  <a href="#">SPM 2023</a>
+  <a href="#">PERHITUNGAN KBK</a>
+  <a href="#">MONEV</a>
+  <a href="#">MONEV PERCEPATAN 2023</a>
+  <a href="#">Rapat Bulanan</a>
+  <a href="#">Pelaporan</a>
 </div>
 </div>
 
 <div class="dropdown">
   <button class="dropbtn">Program</button>
   <div class="dropdown-content">
-<a href="https://linktr.ee/goakreodkksemarang">Goa Kreo</a>
+<a href="#">Goa Kreo</a>
   </div>
 </div>
 
