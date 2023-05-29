@@ -78,12 +78,12 @@ if (mysqli_num_rows($result)>0){
     <div class="dropdown">
         <button class="dropbtn">DOKUMENTASI UKM ESENSIAL</button>
         <div class="dropdown-content">
-      <a href="http://smg.city/akredkagok">GIZI</a>
-      <a href="http://119.2.50.170:6517/kagok/">KESEHATAN LINGKUNGAN</a>
-      <a href="https://sisdmk.kemkes.go.id/">KIA</a>
-      <a href="https://simpatik.semarangkota.go.id/login">P2P</a>
-      <a href="https://simpatik.semarangkota.go.id/login">PUSKESMAS</a>
-      <a href="https://simpatik.semarangkota.go.id/login">PROMKES</a>
+      <a href="#">GIZI</a>
+      <a href="#">KESEHATAN LINGKUNGAN</a>
+      <a href="#">KIA</a>
+      <a href="#">P2P</a>
+      <a href="#">PUSKESMAS</a>
+      <a href="#">PROMKES</a>
   
       </div>
       </div>
