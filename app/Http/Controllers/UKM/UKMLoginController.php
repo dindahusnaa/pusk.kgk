@@ -31,9 +31,8 @@ class UKMLoginController extends Controller
         $kunci = env('KUNCI_SURGA');
 
         $data_login = DB::select(
-        "SELECT u.*, mr.nama, md.nama_divisi, md.kode_divisi 
+        "SELECT u.*, md.nama_divisi, md.kode_divisi 
         FROM users u 
-        JOIN ms_role mr ON mr.nama = u.`role` 
         LEFT JOIN ms_divisi md ON md.kode_divisi = u.kode_divisi 
         WHERE status = 1 
         AND username = '$username' 
@@ -54,9 +53,9 @@ class UKMLoginController extends Controller
         
         $data_session = [
             "username"      => $data_login[0]->username,
-            "nama"          => $data_login[0]->nama,
-            "role"          => $data_login[0]->role,
+            "nama"          => $data_login[0]->name,
             "kode_divisi"   => $data_login[0]->kode_divisi,
+            "email"         => $data_login[0]->email,
             "is_login"      => true
         ];
     

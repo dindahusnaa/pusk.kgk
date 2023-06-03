@@ -128,7 +128,8 @@
                             /**
                              * Cek jika ada session, jika sudah maka tampilkan login
                              * jika belum tampilkan tombol login
-                             */
+                             */ 
+
                             if (session()->has('is_login') == True) {
                                echo '
                                 <div class="nk-header-tools">
@@ -255,8 +256,8 @@
                                                             <span>AB</span>
                                                         </div>
                                                         <div class="user-info">
-                                                            <span class="lead-text">Abu Bin Ishtiyak</span>
-                                                            <span class="sub-text">info@softnio.com</span>
+                                                            <span class="lead-text">'.session()->get("nama").'</span>
+                                                            <span class="sub-text">'.session()->get("email").'</span>
                                                         </div>
                                                         <div class="user-action">
                                                             <a class="btn btn-icon me-n2" href="html/user-profile-setting.html"><em class="icon ni ni-setting"></em></a>

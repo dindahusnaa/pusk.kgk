@@ -3,6 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\KIA\KIAMainController;
 use App\Http\Controllers\UKM\UKMLoginController;
 use App\Http\Controllers\UKM\UKMMainController;
 
@@ -34,6 +35,9 @@ Route::get('/visi-misi', [DashboardController::class, 'visi_misi']);
 Route::get('/profil', [DashboardController::class, 'profil']);
 Route::get('/layanan', [DashboardController::class, 'layanan']);
 Route::get('/kontak', [DashboardController::class, 'kontak']);
+Route::get('/unauthorized', function(){
+    return view('error/unauthorize');
+})->name('unauthorized');
 
 //====================== Public Login ======================//
 
@@ -45,12 +49,48 @@ Route::post('/login/ukm', [UKMLoginController::class, 'ukmLogin']);
 
 //Route yang memiliki middleware untuk sanitasi input dan otorisasi
 //Setting middleware di app/Kernel.php
-Route::group(['middleware' => ['auth', 'auth_role', 'XssSanitization',  'InputSanitasi',]], 
+Route::group(['middleware' => ['auth', 'XssSanitization',  'InputSanitasi',]], 
 function(){
 
     Route::get('/logout', [DashboardController::class, 'logout']);
-    //Route ke halaman UKM
     
-    Route::get('/ukm/dashboard', [UKMMainController::class, 'index']);
+    
+    /**
+     * Untuk setiap route cek cek di db tb_akses
+     * apakah divisinya punya akses atau tidak
+     * dan tolong gunakan contoh route yang sudah disediakan
+     */
+
+    //Route Group UKMP
+    Route::group(['middleware' => ['auth_role']], 
+    function(){
+        Route::get('/ukm/dashboard', [UKMMainController::class, 'index']);
+    })->prefix('ukm');
+    
+    //Route Group TU
+    Route::group(['middleware' => ['auth_role']], 
+    function(){
+        Route::get('/tu/dashboard', [UKMMainController::class, 'index']);
+    })->prefix('tu');
+
+    //Route Group KIA
+    Route::group(['middleware' => ['auth_role']], 
+    function(){
+        Route::get('/kia/dashboard', [KIAMainController::class, 'index']);
+    })->prefix('kia');
+
+    //Route Group Poli
+    Route::group(['middleware' => ['auth_role']], 
+    function(){
+        Route::get('/poli/dashboard', [UKMMainController::class, 'index']);
+    })->prefix('poli');
+
+    //Route Group Lab
+    Route::group(['middleware' => ['auth_role']], 
+    function(){
+        Route::get('/lab/dashboard', [UKMMainController::class, 'index']);
+    })->prefix('lab');
+
+    
 });
 
